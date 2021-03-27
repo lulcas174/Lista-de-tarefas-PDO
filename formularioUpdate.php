@@ -1,6 +1,6 @@
 <?php 
-$id = $_GET['id'];
-require_once ('update.php');
+$id = $_GET['id']; // tá pegando o id
+require_once ('update.php');//eu to chamando o update dentro do formulário
 
 ?>
 
@@ -13,7 +13,7 @@ require_once ('update.php');
 <body>
 <form action="#" method="POST">
             <div class="input-group mb-3">
-            <input type="text" class="form-control"name="input-tarefa-update" placeholder="Insira sua tarefa">
+            <input type="text" class="form-control"name="input-tarefa-update" placeholder="Altere a tarefa">
                 <button class="btn btn-outline-secondary" type="submit" name="adicionar-update" id="button-addon1">Adicionar Tarefa</button>
             </div>
         </form>

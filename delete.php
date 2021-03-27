@@ -11,5 +11,6 @@ $stmt = $connection -> prepare('DELETE FROM listagem WHERE id = :getID');
 
 $stmt -> bindParam(':getID', $id);
 $stmt -> execute();
+
 header("location:index.php");
 ?>
