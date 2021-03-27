@@ -6,10 +6,10 @@ $connection = $conn -> getConnection();
 $id = $_GET['id'];
 
 
-$stmt = $connection -> prepare('DELETE FROM listagem WHERE id = :id ');
+$stmt = $connection -> prepare('DELETE FROM listagem WHERE id = :getID');
 
 
-$stmt -> bindParam(':id', $id);
+$stmt -> bindParam(':getID', $id);
 $stmt -> execute();
 header("location:index.php");
 ?>

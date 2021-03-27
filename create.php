@@ -11,6 +11,7 @@ $stmt = $connection->prepare('INSERT INTO listagem(tarefa) VALUES(?)');
 
 $stmt -> bindParam(1,$inputTarefa);
 $stmt -> execute();
+
 }
 ?>
 

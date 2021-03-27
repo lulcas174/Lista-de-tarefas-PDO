@@ -1,5 +1,5 @@
 <?php 
-require_once ('create.php'); //esse require once ta chamando a função do calculo de IMC, ao inve's de utilizar o action, eu utilizo o require once
+require_once ('create.php'); // Esse require once ta funcionando como action do formulário, a lógica vai rodar em conjunto com  
 ?>
 
 <!DOCTYPE html>
